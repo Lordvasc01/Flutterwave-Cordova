@@ -85,7 +85,7 @@ This allows you to asynchronously open the payment page and perform any operatio
 
    ```javascript
     payWithFlutterwaveAsync({
-        public_key: "FLWPUBK_TEST-4550165677fdcf951548729e3ff6b950-X",
+        public_key: "FLWPUBK_TEST-***************************-X",
         tx_ref: "Ref-4550165677fdcf951548729e3ff6b950",
         amount: 100,
         currency: "NGN",
@@ -120,7 +120,7 @@ This allows you to open the payment page passing the payment object and callback
 
   ```javascript
     payWithFlutterwave({
- public_key: "FLWPUBK_TEST-4550165677fdcf951548729e3ff6b950-X",
+ public_key: "FLWPUBK_TEST-***************************-X",
  tx_ref: "susysvdus"+Math.random(),
  amount: 100,
  currency: "NGN",

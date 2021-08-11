@@ -54,15 +54,15 @@ Replace the meta tag that sets your Content-Security-Policy with the code below 
 Install the SDK
 
 ```bash
-$ npm install flutterwave-v3-cordova-sdk
+$ npm install flutterwave-cordova
 # or
-$ yarn add flutterwave-v3-cordova-sdk
+$ yarn add flutterwave-cordova
 ```
 
 Then run the following code in your terminal when the installation completes:
 
 ```bash
-$ cd node_modules/flutterwave-v3-cordova-sdk && npm start
+$ cd node_modules/flutterwave-cordova && npm start
 ```
 
 **NOTE:** This will create a ***flutterwave.js*** file in the www/js folder

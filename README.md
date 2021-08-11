@@ -120,32 +120,32 @@ This allows you to open the payment page passing the payment object and callback
 
   ```javascript
     payWithFlutterwave({
- public_key: "FLWPUBK_TEST-***************************-X",
- tx_ref: "susysvdus"+Math.random(),
- amount: 100,
- currency: "NGN",
- country: "NG",
- payment_options: "",
- meta: {
-  consumer_id: 23,
-  consumer_mac: "92a3-912ba-1192a",
- },
- customer: {
-  email: "test@gmail.com",
-  phone_number: "081000000",
-  name: "Flutterwave Developers",
- },
- customizations: {
-  title: "My store",
-  description: "Payment for items in cart",
-  logo: "https://assets.piedpiper.com/logo.png",
- } ,
- callback: function(response){
-     //handle response here
-     console.log(response)
-     closePaymentModal()
-  
- }
+     public_key: "FLWPUBK_TEST-***************************-X",
+     tx_ref: "susysvdus"+Math.random(),
+     amount: 100,
+     currency: "NGN",
+     country: "NG",
+     payment_options: "",
+     meta: {
+      consumer_id: 23,
+      consumer_mac: "92a3-912ba-1192a",
+     },
+     customer: {
+      email: "test@gmail.com",
+      phone_number: "081000000",
+      name: "Flutterwave Developers",
+     },
+     customizations: {
+      title: "My store",
+      description: "Payment for items in cart",
+      logo: "https://assets.piedpiper.com/logo.png",
+     } ,
+     callback: function(response){
+         //handle response here
+         console.log(response)
+         closePaymentModal()
+
+     }
 })
 
    ```

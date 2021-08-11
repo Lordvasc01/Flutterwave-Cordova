@@ -1,5 +1,5 @@
 {
-  "name": "flutterwave-v3-cordova-sdk",
+  "name": "flutterwave-cordova",
   "version": "1.0.0",
   "private": false,
   "description": "Flutterwave official Cordova library to accept payment via card , USSD, QrCode, Mobile Money etc in your hybrid apps applications.",

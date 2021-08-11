@@ -12,4 +12,5 @@ var copyFile = (file, dir2)=>{
 };
 
 //example, copy file1.htm from 'test/dir_1/' to 'test/'
-copyFile('dist/flutterwave.js', './www/js');
+copyFile('dist/flutterwave.js', '../../www/js');
+
